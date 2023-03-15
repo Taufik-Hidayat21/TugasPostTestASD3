@@ -1,5 +1,5 @@
 # Data Daftar Narapidana
-##Fungsionalitas Program
+## Fungsionalitas Program
 Program ini berfungsi untuk memanajemen data narapidana dalam suatu lapas. Program ini dapat melakukan penambahan dan penghapusan data narapidana, serta dapat melihat history data narapidana yang pernah masuk dan telah keluar lapas.
 
 ## Cara Kerja Program
