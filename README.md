@@ -1,1 +1,12 @@
-# TugasPostTestASD3
+# Data Daftar Narapidana
+##Fungsionalitas Program
+Program ini berfungsi untuk memanajemen data narapidana dalam suatu lapas. Program ini dapat melakukan penambahan dan penghapusan data narapidana, serta dapat melihat history data narapidana yang pernah masuk dan telah keluar lapas.
+
+##Cara Kerja Program
+Saat program dijalankan pengguna diminta memasukan menu manajemen data yang ingin digunakan. Menu pertama yaitu, menambah data nama narapidana dengan memasukan nama narapidana yang ingin dimasukan maka nama tersebut akan langsung dimasukan ke dalam linked list narapidana dan linked list narapidana yang pernah masuk. Menu kedua yaitu, menghapus data nama narapidana dengan memasukan nomor dari narapidana yang diinginkan dan data narapidana tersebut akan dihapus dari linked list narapidana dan data narapidana tersebut akan masuk ke dalam linked list narapidana yang keluar dari lapas. Menu ketiga yaitu, melihat data narapidana yang masih ada di dalam lapas dengan menampilkan linked list narapidana. Menu keempat yaitu, melihat histori data narapidana yang pernah masuk dan keluar. Dan menu yang terakhir adalah menu untuk keluar dari program.
+
+##Output Program
+Sesaat setelah program dijalankan, pengguna akan melihat output berupa daftar menu yang  dapat digunakan. Kemudian, pengguna akan diminta memasukan menu yang ingin digunakan. Jika pengguna memasukan "1", maka pengguna akan masuk ke menu menambah data, pada menu ini pengguna akan diminta memasukan nama data yang diinginkan yang kemudian akan dimasukan. Jika pengguna memasukan "2", maka pengguna akan masuk ke menu hapus data. Pengguna akan diberikan output berupa daftar data yang tersedia dan akan diminta memasukan nomor data yang ingin dihapus dan data akan langsung dihapus. Jika pengguna memasukan "3", maka pengguna akan masuk ke menu lihat data dan pengguna akan melihat output list data yang ada dan akan ditanya jika ingin keluar dari menu  menampilkan data jika pengguna memasukan "y" maka pengguna akan masuk ke menu awal namun, jika pengguna memasukan "t" maka pengguna akan tetap dalam menu tampil data. Jika pengguna memasukan "4", maka pengguna akan masuk ke menu history. Pada menu history ini pengguna akan diminta memasukan tiga menu lagi, jika "1" maka pengguna akan melihat data histori narapidana yang pernah masuk lapas, jika "2" maka pengguna akan melihat data histori narapidana yang telah keluar dari lapas, jika "3" maka pengguna akan keluar dari menu histori. Jika pengguna memasukan "5", maka program langsung berhenti.
+
+##Elemen Yang Digunakan
+Untuk modul yang digunakan ada tiga, yaitu modul PrettyTable, os, dan time. Dan function yang digunakan yaitu, function constructor, function main, function biasa, function class, function while.
